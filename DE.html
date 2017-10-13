@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    (function rodlink() {
+    var i = (document.location.search).replace("?GROP=","");
+    var rod = Math.round(Math.random() * 2);
+    var links = new Array();
+    links[0] = "http://c.dt-ssl.com/?a=60035&c=152422&E=cFXPqL55wHM%3d&s1=GERMANY&s2="+ i.replace("&m=1",""); // Treffpunkt18 /DE SOI
+    links[1] = "http://c.dt-ssl.com/?a=60035&c=126424&E=FONGrl2r90M%3d&s1=GERMANY&s2="+ i.replace("&m=1",""); // Xpartner /DE SOI
+    links[2] = "http://c.dt-ssl.com/?a=60035&c=153606&E=JGAqMXBONgs%3d&s1=GERMANY&s2="+ i.replace("&m=1",""); // 4 dating /DE SOI
+    window.location = links[rod];
+  })()
+</script>

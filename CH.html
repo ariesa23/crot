@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    (function rodlink() {
+    var i = (document.location.search).replace("?GROP=","");
+    var rod = Math.round(Math.random() * 2);
+    var links = new Array();
+    links[0] = "http://dt-ssl.com/?a=60035&c=113866&s1=SWISS&s2"+ i.replace("&m=1",""); // SenzaPudore /CH SOI
+    links[1] = "http://c.dt-ssl.com/?a=60035&c=131609&E=N0JM9qMfrKE%3d&s1=SWISS&s2"+ i.replace("&m=1",""); // Lustagenten/CH DOI
+    links[2] = "http://c.dt-ssl.com/?a=60035&c=136521&E=N0JM9qMfrKE%3d&s1=SWISS&s2"+ i.replace("&m=1",""); // Lustagenten/CH DOI
+    window.location = links[rod];
+  })()
+</script>

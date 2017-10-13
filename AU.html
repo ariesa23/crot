@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    (function rodlink() {
+    var i = (document.location.search).replace("?GROP=","");
+    var rod = Math.round(Math.random() * 2);
+    var links = new Array();
+    links[0] = "http://dt-ssl.com/?a=60035&c=129570&s1=AUSTRALIA&s2="+ i.replace("&m=1",""); // LustyLocals /AU SOI
+    links[1] = "http://dt-ssl.com/?a=60035&c=100130&s1=AUSTRALIA&s2="+ i.replace("&m=1",""); // MyLustyWish /AU SOI
+    links[2] = "http://dt-ssl.com/?a=60035&c=147130&s1=AUSTRALIA&s2="+ i.replace("&m=1",""); // GetNaughty /AU SOI
+    window.location = links[rod];
+  })()
+</script>

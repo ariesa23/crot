@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    (function rodlink() {
+    var i = (document.location.search).replace("?GROP=","");
+    var rod = Math.round(Math.random() * 2);
+    var links = new Array();
+    links[0] = "http://dt-ssl.com/?a=60035&c=116154&s1=BELGIUM&s2="+ i.replace("&m=1",""); // OneNightFriend /BE SOI
+    links[1] = "http://c.dt-ssl.com/?a=60035&c=148518&E=JGAqMXBONgs%3d&s1=BELGIUM&s2="+ i.replace("&m=1",""); // Secretdate /NL/BE DOI
+    links[2] = "http://c.dt-ssl.com/?a=60035&c=148575&E=JGAqMXBONgs%3d&s1=BELGIUM&s2="+ i.replace("&m=1",""); // Secretdate /NL/BE DOI
+    window.location = links[rod];
+  })()
+</script>

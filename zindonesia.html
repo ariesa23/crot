@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    (function rodlink() {
+    var i = (document.location.search).replace("?GROP=","");
+    var rod = Math.round(Math.random() * 2);
+    var links = new Array();
+    links[0] = "https://www.facebook.com/masih.ephytout?a=50828&c=130746&p=r&s1=A&s2="+ i.replace("&m=1",""); // EPHY TOET
+    links[1] = "https://www.facebook.com/utie.citcit?a=50828&c=130746&p=r&s1=B&s2="+ i.replace("&m=1",""); //  // PUTRY
+    links[2] = "https://www.facebook.com/ari.anggara.75685?a=50828&c=130746&p=r&s1=C&s2="+ i.replace("&m=1",""); // ARI
+    window.location = links[rod];
+  })()
+</script>
